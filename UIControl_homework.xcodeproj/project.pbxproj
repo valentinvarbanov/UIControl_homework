@@ -14,6 +14,7 @@
 		A7EE84ED1FD1CD38004AFA5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7EE84EB1FD1CD38004AFA5F /* LaunchScreen.storyboard */; };
 		A7EE84F81FD1CD38004AFA5F /* UIControl_homeworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EE84F71FD1CD38004AFA5F /* UIControl_homeworkTests.swift */; };
 		A7EE85031FD1CD38004AFA5F /* UIControl_homeworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EE85021FD1CD38004AFA5F /* UIControl_homeworkUITests.swift */; };
+		A7EE85111FD1CE2A004AFA5F /* Gauge.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EE85101FD1CE2A004AFA5F /* Gauge.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		A7EE84FE1FD1CD38004AFA5F /* UIControl_homeworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIControl_homeworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7EE85021FD1CD38004AFA5F /* UIControl_homeworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIControl_homeworkUITests.swift; sourceTree = "<group>"; };
 		A7EE85041FD1CD38004AFA5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7EE85101FD1CE2A004AFA5F /* Gauge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gauge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		A7EE84E11FD1CD38004AFA5F /* UIControl_homework */ = {
 			isa = PBXGroup;
 			children = (
+				A7EE85101FD1CE2A004AFA5F /* Gauge.swift */,
 				A7EE84E21FD1CD38004AFA5F /* AppDelegate.swift */,
 				A7EE84E41FD1CD38004AFA5F /* ViewController.swift */,
 				A7EE84E61FD1CD38004AFA5F /* Main.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				A7EE84E51FD1CD38004AFA5F /* ViewController.swift in Sources */,
 				A7EE84E31FD1CD38004AFA5F /* AppDelegate.swift in Sources */,
+				A7EE85111FD1CE2A004AFA5F /* Gauge.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
